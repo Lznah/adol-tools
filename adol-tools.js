@@ -69,7 +69,7 @@ that.sendFilter = {
     submit: function() {
         that.disableInputs();
         that.sendFilter.email = $('#sendFilter-email').val();
-        that.sendFilter.subject = 'Uložený ADOL filtr';
+        that.sendFilter.subject = 'Výpis dražeb od Roberta';
         if(that.progress >= 1) {
             that.sendFilter.disconnectObservers();
             that.sendFilter.exportData();
